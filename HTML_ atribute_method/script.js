@@ -4,38 +4,39 @@ input.value;
 
 getAttribute(name)
 
-Get the exact attribute value written in HTML.
+//Get the exact attribute value written in HTML.
 
 el.getAttribute("href");
 
 setAttribute(name, value)
 
-Create / update an attribute.
+//Create / update an attribute.
 
 el.setAttribute("title", "Hello");
 
 removeAttribute(name)
 
-Remove an attribute.
+//Remove an attribute.
 
 el.removeAttribute("disabled");
 
 hasAttribute(name)
 
-Check attribute exists or not.
+//Check attribute exists or not.
 
 el.hasAttribute("checked");
 
-toggleAttribute(name, force ? )
+//toggleAttribute(name, force ? )
 
 Add
-if missing, remove
-if present(optional true / false force).
+//if missing, remove
+//if present(optional true / false force).
 
 el.toggleAttribute("hidden");
 
 attributes
 
-All attributes list(NamedNodeMap).
+//All attributes 
+list(NamedNodeMap).
 
 console.log(el.attributes);
