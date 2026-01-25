@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+        
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #222;
+            border-radius: 8px;
+        }
+        
+        .sidebar a.active {
+            font-weight: bold;
+            border: 1px solid #999;
+        }
+        
+        body.dark {
+            background: #111;
+            color: #eee;
+        }
+        
+        body.dark .sidebar a {
+            color: #eee;
+        }
+        
+        body.dark .sidebar a.active {
+            border-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="darkBtn">Toggle Dark Mode</button>
+
+    <h2>Dashboard</h2>
+
+    <div class="sidebar" id="sidebar">
+        <a href="#" class="menu active">Home</a>
+        <a href="#" class="menu">Profile</a>
+        <a href="#" class="menu">Settings</a>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
