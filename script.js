@@ -24,3 +24,9 @@ const sub = function(x, y) {
     console.log("The difference of x and y is ", difference)
 }
 sub(10, 5)
+
+//arrow function
+const multiply = (x, y) => {
+    product = x * y
+    console.log("The product of x and y is ", product)
+}
